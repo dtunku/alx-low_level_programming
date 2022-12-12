@@ -7,14 +7,12 @@
 #include <stdio.h>
 int main(void)
 {
-
-for (char ch = "a"; ch <= "z"; ch++){
-	putchar(ch);
-}
-for (char ch = "A";  ch <= "Z"; ch++){
-	putchar(ch);
-}
-putchar("\n");
-
-return (0);
-}
+  for (char c = 'a'; c <= 'z'; c++) {
+      putchar(c);
+  }
+  for (char c = 'A'; c <= 'Z'; c++) {
+        putchar(c);
+  }
+  putchar('\n');
+    return 0;
+ }
