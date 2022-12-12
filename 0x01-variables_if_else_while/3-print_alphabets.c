@@ -17,6 +17,16 @@ int main(void)
 		}
 		ch++;
 	}
+	while (ch <= 'Z')
+	{
+		if (ch != 'E' && ch != 'Q')
+		{
+			putchar(ch);
+		}
+		ch++;
+	}
+
+
 	putchar('\n');
 	return (0);
 }
