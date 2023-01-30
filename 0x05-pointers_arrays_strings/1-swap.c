@@ -1,6 +1,7 @@
 #include "main.h"
 /**
 * swap_int - swaps the value of int a and int b
+* Owned by Bwave/Bright
 * @a: first int
 * @b: second int
 * Return 0
